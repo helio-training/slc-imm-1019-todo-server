@@ -6,4 +6,6 @@ const listSchema = new Schema({
     tasks: [Schema.Types.ObjectId]
 });
 
-const List = mongoose.model('TaskList', listSchema)
+// const List = mongoose.model('TaskList', listSchema)
+
+module.exports = listSchema

@@ -7,4 +7,6 @@ const taskSchema = new Schema({
     due: Date
 });
 
-const Task = mongoose.model('Task', taskSchema)
+// const Task = mongoose.model('Task', taskSchema)
+
+module.exports = taskSchema

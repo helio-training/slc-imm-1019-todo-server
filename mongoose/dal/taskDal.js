@@ -1,7 +1,5 @@
 var mongoose = require('mongoose');
 
-
-
 const testConnection = () => {
     console.log('Testing Connection')
     

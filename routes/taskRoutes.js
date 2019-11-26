@@ -1,9 +1,9 @@
 var express = require('express');
 var router = express.Router();
-var taskDal = require('../dal/taskDal');
+// var taskDal = require('../dal/taskDal');
 
 router.get('/', function (req, res, next) {
-    taskDal.testConnection()
+    // taskDal.testConnection()
     res.send('success');
 });
 
